@@ -1,14 +1,5 @@
 # SQLAlchemy Homework - Surfs Up!
 
-### Before You Begin
-
-1. Create a new repository for this project called `sqlalchemy-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Add your Jupyter notebook and `app.py` to this folder. These will be the main scripts to run for analysis.
-
-4. Push the above changes to GitHub or GitLab.
 
 ![surfs-up.png](Images/surfs-up.png)
 
@@ -17,8 +8,6 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 ## Step 1 - Climate Analysis and Exploration
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
-
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
 
 * Use SQLAlchemy `create_engine` to connect to your sqlite database.
 
@@ -42,7 +31,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](Images/precipitation.png)
+  ![precipitation](https://github.com/Rlizaran/sqlalchhemy-challenge/blob/main/Images/Precipitation%20from%202016-08-23%20to%202017-08-23.png)
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
@@ -68,7 +57,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](https://github.com/Rlizaran/sqlalchhemy-challenge/blob/main/Images/Temperature%20Frequency%20from%202016-08-23%20to%202017-08-23.png)
 
 * Close out your session.
 
@@ -122,8 +111,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
 ## Bonus: Other Recommended Analyses
 
 * The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
-
-* Use the provided [temp_analysis_bonus_1_starter.ipynb](temp_analysis_bonus_1_starter.ipynb) and [temp_analysis_bonus_2_starter.ipynb](temp_analysis_bonus_2_starter.ipynb) starter notebooks for each bonus challenge.
 
 ### Temperature Analysis I
 
@@ -187,10 +174,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
   ![daily-normals](Images/daily-normals.png)
 
 * Close out your session.
-
-## Rubric
-
-[Unit 10 Rubric - SQLAlchemy Homework - Surfs Up!](https://docs.google.com/document/d/1gT29iMF3avSvJruKpcHY4qovP5QitgXePqtjC6XESI0/edit?usp=sharing)
 
 - - -
 

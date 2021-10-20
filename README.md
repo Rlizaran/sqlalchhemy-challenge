@@ -127,6 +127,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 
 * Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+* Unpaired-test has been chose because the two variables are independent from one to another
 
 ### Temperature Analysis II
 
@@ -143,6 +144,8 @@ Now that you have completed your initial analysis, design a Flask API based on t
   * Use the average temperature as the bar height (y value).
 
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
+
+![](Images/Trip_avg_temp.png)
 
 
 ### Daily Rainfall Average
@@ -169,6 +172,9 @@ Now that you have completed your initial analysis, design a Flask API based on t
 * Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
+
+
+![](Images/Daily_Temperature_from_2017-08-01_to_2017-08-07.png)
 
 
 * Close out your session.
